@@ -1,0 +1,315 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #000;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+#page-1-id{
+ background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('bg image 1.jpg');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+ height: 620px;
+ width: 100%;
+ border-bottom: 8px solid #232323;
+}
+
+.nav-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  height: 6rem;
+  width: 10rem;
+}
+
+
+.top-right-box{
+  display: flex;
+  align-items: center;
+
+}
+
+#lng-btn {
+  color: white;
+  height: 2rem;
+  width: 5.5rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+#sign-btn{
+  height: 2.1rem;
+  width: 5rem;
+  padding: 2px;
+  background-color: #e50914;
+}
+
+.tagline{
+  color: white;
+  text-align: center;
+  margin-top: 26vh;
+  line-height: 2rem;
+}
+
+.t1{
+  font-size: 3.2rem;
+  font-weight:  900 ;
+  color: white;
+}
+
+.t2{
+  line-height: 2rem;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+}
+
+.t3{
+  font-size: 1.2rem;
+  color: #b3b3b3;
+  list-style-type: none;
+}
+
+#input-form{
+  margin-left:23% ;
+ 
+}
+
+.inputs{
+  height: 13vh;
+  width: 30vw;
+  border-radius: 4px;
+  background: transparent;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+ 
+}
+
+::placeholder{
+  color: #ccc;
+}
+
+#get-btn{
+  width: 58%;
+  height: 13vh;
+  background-color: #e50914;
+  border-radius: 4px;
+  font-size: 23px;
+  font-weight: 900;
+  padding: 0 2rem 0 1.3rem;
+  color: white;
+}
+
+
+/* 2nd page */
+
+#page-2-id{
+  padding: 6rem 0;
+  /* border-top: 8px solid #232323; */
+  border-bottom: 8px solid #232323;
+  width: 100%;
+}
+
+.tv-img{
+  object-fit: cover;
+  /* background-position: 40%; */
+  height: 100%;
+  width: 100%;
+}
+ #headings{
+  text-align:  start;
+  padding: 4rem;
+ }
+
+/* 6nd page */
+
+#page-6-id{
+  padding: 4rem 0;
+  width: 100%;
+  border-bottom: 8px solid #232323;
+}
+
+.faq{
+  font-size: 3.2rem;
+  font-weight:  900 ;
+  color: white;
+  text-align: center;
+}
+ #faq-box{
+  width: 100%;
+  padding: 1rem 4rem;
+ }
+ .accordion-item,.accordion-button,.accordion-header{
+  background-color: #2d2d2d;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: none;
+ }
+ .accordion-item{
+  padding: 0.5rem;
+ }
+
+ /* footer */
+
+ .call-tag{
+  padding: 4.5rem  1.5rem 1rem 1.7rem;
+  color: #232323;
+ }
+
+ .bottom-div{
+  padding: 1.5rem 1.5rem;
+ }
+          /* media query */
+
+ @media (max-width:580px){
+  .faq{
+    font-size: 2em;
+  }
+  .tagline{
+    margin-top: 8vh;
+  }
+  #input-form {
+    margin-left: 6%;
+}
+
+.inputs{
+  margin-bottom: 2rem;
+    height: 8vh;
+    width: 90%;
+}
+#get-btn {
+  height: 8vh;
+  margin-left: 15%;
+  font-size: 1.1rem;
+
+}
+  .t1{
+    font-size: 2em;
+  }
+  .t2{
+    font-size: 1.2em;
+    padding: 1.7rem;
+  }
+  .t3{
+    font-size: 1.1em;
+    
+  }
+  #page-2-id {
+    padding: 4rem 0;
+  }
+  #headings {
+    text-align: center;
+    padding: 0rem;
+}
+
+}
+
+@media (min-width:581px) and (max-width:980px){
+  #page-1-id{
+    height: 500px;
+  }
+  .tagline{
+    margin-top: 8vh;
+  }
+  #input-form {
+    margin-left: 6%;
+}
+
+.inputs{
+    height: 8vh;
+    width: 100%;
+}
+#get-btn {
+  height: 8vh;
+  font-size: 1.1rem;
+  width: 9.9rem;
+
+}
+  .t1{
+    font-size: 2em;
+    padding: 0 1rem;
+  }
+  .t2{
+    font-size: 1.2em;
+    padding: 0 1.7rem;
+  }
+  .t3{
+    font-size: 1.1em;
+  }
+  #page-2-id {
+    padding: 4rem 0;
+  }
+  #headings {
+    text-align: center;
+    padding: 0rem;
+}
+
+}
+
+@media (min-width:981px) and (max-width:1200px){
+  /* #page-1-id{
+    height: 500px;
+  } */
+  /* .tagline{
+    margin-top: 8vh;
+  } */
+  #input-form {
+    margin-left: 23%;
+}
+
+/* .inputs{
+    height: 8vh;
+    width: 100%;
+} */
+#get-btn {
+  width: 12rem;
+}
+  .t1{
+    font-size: 3em;
+    padding: 0 1.6rem;
+  }
+  .t2{
+    font-size: 1.6em;
+    padding: 0 1.7rem;
+  }
+  .t3{
+    font-size: 1.2em;
+  }
+  #page-2-id {
+    padding: 6rem 0;
+  }
+  #headings {
+    text-align: start;
+    padding: 3rem 4rem 3rem 1.8rem;
+}
+
+}
+
+@media (min-width:1201px) and (max-width:1400px){
+
+  #input-form {
+    margin-left: 21%;
+}
+ #get-btn {
+  width: 68%;
+}
+ .inputs{
+  width: 36vw;
+ }
+ #headings{
+  padding: 4rem 6rem 3rem 1.8rem;
+ }
+}
